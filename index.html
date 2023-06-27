@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dra. Isabela - Neurologista</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet"  href="./css/styles.css">
+</head>
+<header>
+      
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top ml-auto">
+    <div class="container">
+        <a class="navbar-brand" href="#">Dra. Isabela</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre mim</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contatos.html">Contato</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-text">
+            <i class="bi bi-telephone"></i>
+            <span class="phone-number">(32) 99999-9999</span>
+        </div>
+    </div>
+</nav>
+</header>
+
+<body>
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-interval="2000" data-bs-ride="carousel">
+            
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./image/p-slide.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Neurologista</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/s-slide.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Ressonância Magnética</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./image/t-slide.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        <div class="container">
+          <div class="row custom-gutter justify-content-center">
+            <div class="col-lg-4 col-md-6 col-12 d-none d-lg-block card-overlay card-color card-p" style="margin-bottom: 20px;">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid mr-3" src="./image/icons8-hospital-64.png">
+                  <h5 class="card-title">Consulta e avaliação neurológica</h5>
+                </div>
+                <p class="card-text">Obtenha diagnóstico preciso e tratamento especializado para doenças do sistema nervoso.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 card-overlay card-color card-s d-none d-lg-block" style="margin-bottom: 20px;">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid mr-3" src="./image/icons8-brain-stroke-64.png">
+                  <h5 class="card-title">Diagnóstico Preciso de Doenças Neurológicas</h5>
+                </div>
+                <p class="card-text">Oferecemos exames avançados e análise especializada para identificar e tratar doenças neurológicas.</p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 card-overlay card-color card-t d-none d-lg-block" style="margin-bottom: 20px;">
+              <div class="card-body">
+                <div class="d-flex align-items-center">
+                  <img class="img-fluid mr-3" src="./image/icons8-dor-de-cabeça-64.png">
+                  <h5 class="card-title">Aconselhamento e Orientação Neurológica</h5>
+                </div>
+                <p class="card-text">Conte com nossa equipe especializada para receber aconselhamento e orientação personalizados em questões neurológicas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container d-md-none">
+          <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-center">
+                  <div class="col-10 col-sm-8 col-md-6">
+                    <div class="card-overlay-c card-color card-s" style="margin-bottom: 20px;">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center">
+                          
+                          <h5 class="card-title">Diagnóstico Preciso de Doenças Neurológicas</h5>
+                        </div>
+                        <p class="card-text">Oferecemos exames avançados e análise especializada para identificar e tratar doenças neurológicas.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-10 col-sm-8 col-md-6">
+                    <div class="card-overlay-c card-color card-t" style="margin-bottom: 20px;">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center">
+                         
+                          <h5 class="card-title">Aconselhamento e Orientação Neurológica</h5>
+                        </div>
+                        <p class="card-text">Conte com nossa equipe especializada para receber aconselhamento e orientação personalizados em questões neurológicas.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-10 col-sm-8 col-md-6">
+                    <div class="card-overlay-c card-color card-t" style="margin-bottom: 20px;">
+                      <div class="card-body">
+                        <div class="d-flex align-items-center">
+                          
+                          <h5 class="card-title">Consulta e avaliação neurológica</h5>
+                        </div>
+                        <p class="card-text">Obtenha diagnóstico preciso e tratamento especializado para doenças do sistema nervoso.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Próximo</span>
+            </button>
+          </div>
+        </div>
+        
+            
+          
+        
+    </section>
+    <section id="sobre">
+        <div class="container sobre">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="display-4">Quem sou eu?</h1>
+                    <img src="./image/sobre.jpg" class="img-fluid w-100">
+                </div>
+                <div class="col-md">
+                    <h1 class="display-5">Dra. Isabela</h1>
+                    <p>Sou Isabela, uma médica neurologista especializada em cuidar da saúde do sistema nervoso. Com empatia e expertise, ofereço diagnóstico e tratamento de doenças neurológicas, priorizando o bem-estar e a qualidade de vida dos meus pacientes. Conte comigo para cuidar da sua saúde cerebral de forma personalizada e confiável.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="servicos" class="serv">
+        <div class="titulo-serv">
+            <h4>SERVIÇOS</h4>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-5">
+              <div class="d-flex align-items-center">
+                <img class="img-fluid mr-3" src="./image/icons8-dor-de-cabeça-64.png">
+                <h3>Avaliação e diagnóstico</h3>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5">
+              <div class="d-flex align-items-center">
+                <img class="img-fluid mr-3" src="./image/icons8-cérebro-64.png">
+                <h3>Tratamento de condições neurológicas</h3>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5">
+              <div class="d-flex align-items-center">
+                <img class="img-fluid mr-3" src="./image/icons8-medical-history-64.png">
+                <h3>Acompanhamento de doenças crônicas</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 mb-5">
+              <div class="d-flex align-items-center">
+                <img class="img-fluid mr-3" src="./image/icons8-brain-stroke-64.png">
+                <h3>Realização de procedimentos especializados</h3>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5">
+              <div class="d-flex align-items-center">
+                <img class="img-fluid mr-3" src="./image/icons8-doctors-folder-64.png">
+                <h3>Encaminhamento para especialidades relacionadas</h3>
+              </div>
+            </div>
+            <div class="col-md-4 mb-5">
+              <div class="d-flex align-items-center">
+                <img class="img-fluid mr-3" src="./image/icons8-virus-dna-64.png">
+                <h3>Aconselhamento genético</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+    </section>
+    <section class="historico">
+        <div class="container">
+          <h1 class="display-6">HISTÓRICO ACADÊMICO</h1>
+          <div class="row custom">
+            <div class="col-lg-6">
+              <div class="row custom-forma">
+                <div class="col-lg-6  mb-5">
+                  <div class="formacao d-flex align-items-center">
+                    <div class="img-icon">
+                      <img class="img-fluid" src="./image/study.png" alt="svg-study">
+                    </div>
+                    <p>(adicione sua formação)</p>
+                  </div>
+                </div>
+                <div class="col-lg-6  mb-5">
+                  <div class="formacao d-flex align-items-center">
+                    <div class="img-icon">
+                      <img class="img-fluid" src="./image/doctor.png" alt="svg-study">
+                    </div>
+                    <p>(adicione sua formação)</p>
+                  </div>
+                </div>
+                <div class="col-lg-6  mb-5">
+                  <div class="formacao d-flex align-items-center">
+                    <div class="img-icon">
+                      <img class="img-fluid" src="./image/doctor.png" alt="svg-study">
+                    </div>
+                    <p>(adicione sua formação)</p>
+                  </div>
+                </div>	
+                <div class="col-lg-6  mb-5">
+                  <div class="formacao d-flex align-items-center">
+                    <div class="img-icon">
+                      <img class="img-fluid" src="./image/study.png" alt="svg-study">
+                    </div>
+                    <p>(adicione sua formação)</p>
+                  </div>
+                </div>
+                <div class="col-lg-6  mb-5">
+                  <div class="formacao d-flex align-items-center">
+                    <div class="img-icon">
+                      <img class="img-fluid" src="./image/study.png" alt="svg-study">
+                    </div>
+                    <p>(adicione sua formação)</p>
+                  </div>
+                </div>	
+                <div class="col-lg-6  mb-5">
+                  <div class="formacao d-flex align-items-center">
+                    <div class="img-icon">
+                      <img class="img-fluid" src="./image/doctor.png" alt="svg-study">
+                    </div>
+                    <p>(adicione sua formação)</p>
+                  </div>
+                </div>
+                <div class="col-lg-6  mb-5">
+                  <div class="formacao d-flex align-items-center">
+                    <div class="img-icon">
+                      <img class="img-fluid" src="./image/doctor.png" alt="svg-study">
+                    </div>
+                    <p>(adicione sua formação)</p>
+                  </div>
+                </div>
+                <div class="col-lg-6  mb-5">
+                    <div class="formacao d-flex align-items-center">
+                      <div class="img-icon">
+                        <img class="img-fluid" src="./image/doctor.png" alt="svg-study">
+                      </div>
+                      <p>(adicione sua formação)</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-6  mb-5 img-historico">
+              <img class="img-fluid" src="./image/historico.jpg" alt="Historico">
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <footer class="bg-light text-center text-lg-start">
+      
+        <div class="container foot p-4">
+          
+          <div class="row">
+            
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Dra. ISABELA</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#" class="text-dark">Neurologista</a>
+                </li>
+                
+              
+            </div>
+           
+      
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">PAGES</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#carouselExampleCaptions" class="text-dark">HOME</a>
+                </li>
+                <li>
+                  <a href="#sobre" class="text-dark">SOBRE MIM</a>
+                </li>
+                <li>
+                  <a href="#servicos" class="text-dark">SERVIÇOS</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-dark">CONTATOS</a>
+                </li>
+              </ul>
+            </div>
+       
+      
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">CLÍNICA NEUROCARE</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <p>Rua das Flores, 123</p>
+                </li>
+                <li>
+                  <p>Bairro Jardim Feliz</p>
+                </li>
+                <li>
+                  <p>Cidade Fictícia</p>
+                </li>
+                <li>
+                  <p>Telefone: +55 12 3456-7890</p>
+                </li>
+              </ul>
+            </div>
+         
+      
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">CLÍNICA NEUROSAÚDE</h5>
+      
+              <ul class="list-unstyled">
+                <li>
+                    <p>Avenida dos Sonhos, 456</p>
+                  </li>
+                  <li>
+                    <p>Bairro Esperança</p>
+                  </li>
+                  <li>
+                    <p>Cidade Imaginária</p>
+                  </li>
+                  <li>
+                    <p>Telefone: +55 98 7654-3210</p>
+                  </li>
+              </ul>
+            </div>
+          
+          </div>
+      
+        </div>
+        
+        <div class="insta d-flex justify-content-center">
+           
+            <a href="#" class="social-icon">
+                
+                <img src="./image/icons8-instagram-velho-100.png" class="img-fluid">
+                <span class="social-name"></span>
+            </a>
+        </div>
+     
+        <div class="text-center p-3" style="background-color: #b2d8e9;">
+          © 2020 Copyright:
+          <a class="text-dark" >Junior Fagundes</a>
+        </div>
+     
+      </footer>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+            
+</body>
+</html>
+        
