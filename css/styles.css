@@ -313,13 +313,11 @@ a {
     }
 }
 @media (max-width: 760px) {
-    .custom-forma .col-lg-6 {
-      width: 100%; 
+    .card-color p{
+        padding: 64px 30px 17px 30px;
     }
   
-    .custom-forma .col-lg-6 .formacao {
-      margin-bottom: 15px; 
-    }
+    
   }
 @media (min-width: 576px){
 .col-sm-8 {
