@@ -357,8 +357,18 @@ a {
     .sobre {
         margin-top: -87px;
     }
-  
-    
+    .sobre p{
+        border: 1px solid #94b2c0;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 40px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 60px;
+        padding: 30px;
+        background-color: #ccccccc7;
+    }
+    .display-5 {
+        text-decoration: underline #94b2c0;
+    }
   }
 @media (min-width: 576px){
 .col-sm-8 {
