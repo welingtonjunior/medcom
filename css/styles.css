@@ -9,6 +9,7 @@
     object-fit: cover;
     width: 100%;
     height: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .navbar {
     
@@ -47,6 +48,8 @@
 
 .navbar-light .navbar-nav .nav-link {
     color: #fff;
+    margin-right: 66px;
+
 }
 
 .navbar-toggler {
@@ -60,6 +63,7 @@
 
 .nav-link {
     padding: .2rem 1rem;
+    justify-self: start;
 }
 
 .nav-link.active,.nav-link:focus{
@@ -95,11 +99,24 @@
     margin-left: 7px;
     color: #fff;
 }
+.card-overlay-c h5 {
+
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+
+}
 .card-overlay-c {
     margin-top: 173px;
     text-align: center;
     border: 1px solid #0000;
-    height: 50vh
+    height: 50vh;
+    box-shadow: rgb(178, 216, 233, 0.4) 5px 5px, rgb(178, 216, 233, 0.3) 10px 10px, rgb(178, 216, 233, 0.2) 15px 15px, rgb(178, 216, 233, 0.1) 20px 20px, rgb(178, 216, 233, 0.05) 25px 25px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px;
 }
 
 
@@ -166,7 +183,7 @@ h1{
 }
 .sobre img {
     margin-left: 19px;
-    box-shadow: 0 3px 4px rgba(15, 13, 10, 8.1);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .display-5 {
@@ -245,7 +262,7 @@ h1{
 .img-historico img {
     height: 575px;
     width: 500px;
-    box-shadow: 0 3px 4px rgba(15, 13, 10, 8.1);
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 .serv{
     margin-top: 100px;
@@ -314,7 +331,13 @@ a {
 }
 @media (max-width: 760px) {
     .card-color p{
-        padding: 64px 30px 17px 30px;
+        padding: 26px 30px 47px 30px;
+        font-size: 1rem;
+        border: 1px solid rgb(254, 255, 255);
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 40px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 60px;
     }
     .redes-sociais {
         margin-left: 12px;
