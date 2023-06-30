@@ -187,7 +187,20 @@ h1{
     margin-top: 10px;
 }
 
-
+.sobre p{
+    border: 1px solid #94b2c0;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 40px;
+    
+    border-top-right-radius: 60px;
+    padding: 40px;
+    background-color: #ccccccc7;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+.display-5 {
+    text-decoration: underline #94b2c0;
+}
 .sobre img {
     margin-left: 19px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -206,12 +219,7 @@ h1{
     letter-spacing: 3px;
     margin-left: 30px;
 }
-.sobre p{
-    padding: 10px;
-    margin-top: 35px;
-    margin-left: 35px;
-    
-}
+
 .display-4 {
     margin-left: 32px;
     margin-bottom: -9px;
@@ -368,6 +376,9 @@ a {
     }
     .display-5 {
         text-decoration: underline #94b2c0;
+    }
+    .card-text {
+        margin-top: 10px;
     }
   }
 @media (min-width: 576px){
